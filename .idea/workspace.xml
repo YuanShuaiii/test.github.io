@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a76e28a-6498-4cba-9698-f8e989e08ca7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/mainpage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/mainpage.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/b1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/b3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/b4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/db.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/g1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/g2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/g3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/g4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/g5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/g6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/g7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/g8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/guitar1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/poster01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/poster01r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/poster02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/poster02r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/poster03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/poster03r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/poster04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/poster05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/scale.fix.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="circleyuannnn.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -238,18 +212,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475135288407</updated>
-      <workItem from="1475135289591" duration="3782000" />
+      <workItem from="1475135289591" duration="4146000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3782000" />
+    <option name="totallyTimeSpent" value="4146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="164" y="80" width="1304" height="898" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
