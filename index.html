@@ -1,20 +1,1156 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Yuan</title>
-    <style>
-        div {
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        main {
+            width: 100%;
+            height: 600px;
+            margin: 100px auto;
+            position: relative;
+        }
+        body {
+            background-size: auto;
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            background-position: center center;
+            background-size: cover;
+            min-height: 900px;
+        }
+        .empty {
+            width: 100%;
+            height: 970px;
+            margin-top: -160px;
+            background-color: transparent;
+            font-size: 50px;
+            color: white;
+            text-shadow: 1px 1px 1px #000;
+            text-align: center;
+            line-height: 800px;
+            font-family: 'Playfair Display SC', Georgia, Times, 'Times New Roman', serif;
+            font-style: italic;
+            font-weight: lighter;
+            text-rendering: optimizeLegibility;
+        }
+        .bigcontainer {
+            width: 100%;
+            height: 2000px;
+            background-color: white;
+            position: relative;
+            background-color: #fbc73b;
+        }
+        /*.b1 {
+          width: 960px;
+          height: 600px;
+          margin-top: 30px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 20px;
+          background-color: #f1f1f1;
+          overflow: hidden;
+          position: relative;
+        }*/
+        /*.larm {
+          height: 70px;
+          width: 30px;
+          background-color: red;
+          border-radius: 40px;
+          float: left;
+          margin-top: 64px;
+          margin-right: 7px;
+        }*/
+        /*.center {
+          width: 120px;
+          height: 194px;
+          float: left;
+          position: relative;
+        }*/
+        /*.rarm {
+          height: 70px;
+          width: 30px;
+          background-color: red;
+          border-radius: 40px;
+          float: left;
+          margin-top: 64px;
+          margin-left: 7px;
+        }*/
+        /*.head {
+          height: 60px;
+          width: 120px;
+          background-color:yellow;
+          border-radius: 120px 120px 0 0;
+          position: relative;
+        }*/
+        /*.leye {
+          position: absolute;
+          height: 13px;
+          width: 13px;
+          border-radius: 13px;
+          background-color: red;
+          top: 24px;
+          left: 24px;
+        }*/
+        /*.reye {
+          position: absolute;
+          height: 13px;
+          width: 13px;
+          border-radius: 13px;
+          background-color: red;
+          top: 24px;
+          right: 24px;
+        }*/
+        /*.bodycenter {
+          width: 120px;
+          height: 75px;
+          border-radius: 0 0 20px 20px;
+          background-color: yellow;
+          margin-top: 5px;
+          position: relative;
+        }*/
+        /*.bodycenter:hover {
+          width: 120px;
+          height: 20px;
+          content: "";
+          display: block;
+          transition: 1s ease-in;
+          position: absolute;
+
+        }*/
+        /*.fade {
+          width: 120px;
+          height: 300px;
+        }*/
+        /*.fade:hover .bodycenter {
+          width: 120px;
+          height: 20px;
+          transition: 1s ease-in;
+        }*/
+        /*.fade:hover .lleg {
+          height: 30px;
+          width: 30px;
+          background-color: red;
+          border-radius: 0 0 40px 40px;
+          position: absolute;
+          left: 37px;
+        }*/
+        /*.fade:hover .rleg {
+          height: 30px;
+          width: 30px;
+          background-color: red;
+          border-radius: 0 0 40px 40px;
+          position: absolute;
+          right: 37px;
+
+        }*/
+        /*.lleg {
+          height: 50px;
+          width: 30px;
+          background-color: red;
+          border-radius: 0 0 40px 40px;
+          position: absolute;
+          left: 22px;
+                transition: 1s ease-in;
+        }*/
+        /*.rleg {
+          height: 50px;
+          width: 30px;
+          background-color: red;
+          border-radius: 0 0 40px 40px;
+          position: absolute;
+          right: 22px;
+                transition: 1s ease;
+        }*/
+        /*.b2 {
+          width: 194px;
+          height: 500px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 50px;
+          overflow: hidden;
+          position: relative;
+          padding-top: 50px;
+        }*/
+        /*.greenhat {
+          position: absolute;
+          width: 110px;
+          height: 20px;
+          border-radius: 40px;
+          background-color: transparent;
+          top: 42px;
+          left: 42px;
+          z-index: 1;
+          color: transparent;
+          transition: background-color 5s ease;
+        }*/
+        /*.greenhat:hover {
+          background-color: green;
+          text-align: center;
+
+        }*/
+        /*.greenhat:hover .xing {
+          transition:  3s ease-in;
+          color: red;
+        }*/
+        /*.b1 .talk {
+          width: 100px;
+          height: 30px;
+          border-radius: 10px 10px 0 10px;
+          background-color: transparent;
+          position: absolute;
+          top: 104px;
+          left: 235px;
+          font-size: 9px;
+          color: transparent;
+          line-height: 30px;
+          text-align: center;
+          transition: .5s ease-in;
+        }*/
+        /*.b1:hover .talk {
+          width: 100px;
+          height: 30px;
+          border-radius: 10px 10px 0 10px;
+          background-color: pink;
+          position: absolute;
+          top: 104px;
+          left: 235px;
+          font-size: 9px;
+          color: white;
+          line-height: 30px;
+          text-align: center;
+          transition: .5s ease-in;
+        }*/
+        /*.b1 .talk2 {
+          width: 130px;
+          height: 30px;
+          border-radius: 10px 10px 0 10px;
+          background-color: transparent;
+          position: absolute;
+          top: 150px;
+          left: 235px;
+          font-size: 9px;
+          color: transparent;
+          line-height: 30px;
+          text-align: center;
+          transition: .5s ease-in;
+        }*/
+        /*.b1:hover .talk2 {
+          width: 130px;
+          height: 30px;
+          border-radius: 10px 10px 0 10px;
+          background-color: pink;
+          position: absolute;
+          top: 104px;
+          left: 235px;
+          font-size: 9px;
+          color: white;
+          line-height: 30px;
+          text-align: center;
+          transition: 2s ease-in;
+        }*/
+        .n1 {
+            width: 100%;
+            height: 60px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            font-size: 20px;
+            font-family: fantasy;
+            text-align: center;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            z-index: 10;
+        }
+        .nn1 {
+            position: absolute;
+            top: 14px;
+            right: 35px;
+        }
+        a {
+            color: white;
+            font-family: cursive;
+        }
+        a:link {
+            text-decoration: none;
+        }
+        .n1 p{
+            margin-top: 13px;
+        }
+        .m1 {
+            width: 100%;
+            height: 25px;
+            margin-top: 8px;
+            border-top: 2px solid white;
+        }
+        /*.img1 {
+          width: 640px;
+          height: 420px;
+          background-size: contain;
+          background-image: url("./imgapache/ho4aelr8w5.jpg");
+          margin: auto;
+          position: relative;
+        }
+        .img1:hover::before {
+          position: absolute;
+          content: "";
+          width: 640px;
+          height: 420px;
+          background-image: url("./imgapache/logo.png");
+          background-color: red;
+          background-size: 120.5px 36px;
+
+          margin: auto;
+
+          opacity: .5;
+          transition: background-color .3s ease-in ;
+        }*/
+        /*.bottom {
+          width: 100%;
+          height: 161px;
+          background-color: black;
+          margin-bottom: 0px;
+          overflow: hidden;
+          position: fixed;
+          z-index: 10;
+        }
+        .bottomin {
+          margin-top:100px;
+          border-top: 3px solid white;
+        }*/
+        .rightmenu {
+            border: 1px solid transparents;
+            width: 40px;
+            height: 40px;
+            border-radius: 40px;
+            background-color: #8d8d8d;
+            position: fixed;
+            right: -25px;
+            top: 100px;
+            box-shadow: 0px 0px 10px;
+            transition:  .5s ease-in ;
+        }
+        .rightmenu:hover {
+            width: 150px;
+            height: 360px;
+            background-color: #8d8d8d;
+            border-radius: 5px;
+            border: 0px;
+        }
+        .rightmenu li {
+            list-style: none;
+            position: relative;
+            width: 150px;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            font-size: 20px;
+            margin-left: 0;
+            border: 1px solid transparents;
+            transition: background-color 2s ease ;
+            border-radius: 5px;
+        }
+        .rightmenu li:nth-child(1):hover {
+            background-color: #d71345;
+            opacity: .5;
+            transition: background-color 1s ease-in ;
+        }
+
+        .rightmenu li:nth-child(2):hover {
+            background-color: #f58f98;
+            opacity: .5;
+            transition: background-color 1s ease-in ;
+        }
+        .rightmenu li:nth-child(3):hover {
+            background-color: pink;
+            opacity: .5;
+            transition: background-color 1s ease-in ;
+        }
+        .rightmenu li:nth-child(4):hover {
+            background-color: #b3424a;
+            opacity: .5;
+            transition: background-color 1s ease-in ;
+        }
+        .rightmenu li:nth-child(5):hover {
+            background-color: #840228;
+            opacity: .5;
+            transition: background-color 1s ease-in ;
+        }
+        /*.lear {
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          background-color: transparent;
+          width: 41px;
+          height: 36px;
+          border-radius: 45px;
+        }*/
+        /*.rear {
+          position: absolute;
+          top: 0px;
+          right: 0px;
+          background-color: transparent;
+          width: 41px;
+          height: 36px;
+          border-radius: 45px;
+        }*/
+        /*.center:hover .lear{
+          background-color: yellow;
+          transition: 1s ease-in;
+        }*/
+        /*.center:hover .rear{
+          background-color: yellow;
+          transition: 1s ease-in;
+        }*/
+        /*.androidog {
+          width: 100px;
+          height: 30px;
+          background-color: transparent;
+          color: #f1f1f1;
+          position: absolute;
+          top: 207px;
+          left: 10px;
+          text-align: center;
+          line-height: 30px;
+          border-radius: 30px;
+        }*/
+        /*.fade:hover .androidog {
+          width: 100px;
+          height: 30px;
+          background-color: pink;
+          transition: 2s ease-in;
+        }*/
+
+
+        /*left menu*/
+        .leftmenu {
             width: 100px;
+            height: 180px;
+            background-color: lightpink;
+            position: fixed;
+            top: 103px;
+            left: -88px;
+            transition: 1s ease;
+            font-size: 13px;
+            float: left;
+        }
+        .leftmenu li {
+            text-decoration: none;
+            width: 100px;
+            height: 30px;
+            list-style: none;
+            line-height: 30px;
+            text-align: center;
+            position: relative;
+            opacity: .5;
+            color: white;
+            transition: 1s ease;
+            display: inline-block;
+            margin: auto;
+        }
+        /*.leftmenu li {
+          width: 100px;
+          height: 30px;
+          list-style: none;
+          line-height: 30px;
+          text-align: center;
+          position: relative;
+          opacity: .5;
+          color: white;
+          transition: 1s ease;
+          display: inline-block;
+          margin: auto;
+        }*/
+        .leftmenu:hover {
+            width: 100px;
+            height: 180px;
+            left: 0px;
+            /*position: absolute;*/
+        }
+        .leftmenu li:nth-child(1):hover {
+            width: 120px;
+            height: 30px;
+            opacity: 1;
+            margin: auto;
+        }
+        .leftmenu li:nth-child(1)::after {
+            width: 0px;
+            height: 30px;
+            content: "";
+            left: 100px;
+            position: absolute;
+            transition: 3s ease-out;
+            margin: auto;
+        }
+        .leftmenu li:nth-child(1):hover::after {
+            width: 133px;
+            height: 150px;
+            left: 100px;
+            background-color: #9F0050;
+            content: '"You use to laught about people who were hanging out, Now you do not talk so loud."';
+            position: absolute;
+            margin: auto;
+            border-radius: 0 10px 10px 10px;
+            font-family: cursive;
+            overflow: hidden;
+        }
+        .leftmenu li:nth-child(2):hover {
+            width: 120px;
+            height: 30px;
+            opacity: 1;
+        }
+        .leftmenu li:nth-child(2)::after {
+            width: 0px;
+            height: 30px;
+            content: "";
+            position: absolute;
+            transition: 3s ease-out;
+            margin: auto;
+            left: 100px;
+        }
+        .leftmenu li:nth-child(2):hover::after {
+            width: 120px;
+            height: 200px;
+            left: 100px;
+            background-color: #007979;
+            content: '"If i could be who you wanted...If i could be who you wanted...All the time, all the time...."';
+            position: absolute;
+            border-radius: 0 10px 10px 10px;
+            font-family: cursive;
+            overflow: hidden;
+        }
+        .leftmenu li:nth-child(3):hover {
+            width: 120px;
+            height: 30px;
+            opacity: 1;
+        }
+        .leftmenu li:nth-child(3)::after {
+            width: 0px;
+            height: 30px;
+            content: "";
+            position: absolute;
+            transition: 3s ease-out;
+            left: 100px;
+        }
+        .leftmenu li:nth-child(3):hover::after {
+            width: 100px;
+            height: 120px;
+            left: 100px;
+            background-color: #019858;
+            content: '"Rape me, rape me my friend...Rap me again..."';
+            position: absolute;
+            border-radius: 0 10px 10px 10px;
+            font-family: cursive;
+            overflow: hidden;
+        }
+        .leftmenu li:nth-child(4):hover {
+            width: 120px;
+            height: 30px;
+            opacity: 1;
+        }
+        .leftmenu li:nth-child(4)::after {
+            width: 0px;
+            height: 30px;
+            content: "";
+            position: absolute;
+            transition: 3s ease-out;
+            left: 100px;
+        }
+        .leftmenu li:nth-child(4):hover::after {
+            width: 100px;
+            height: 120px;
+            left: 100px;
+            background-color: #FF0000;
+            content: '"All in a dream, all in a dream, the loading had begun."';
+            position: absolute;
+            border-radius: 0 10px 10px 10px;
+            font-family: cursive;
+            overflow: hidden;
+        }
+        .leftmenu li:nth-child(5):hover {
+            width: 120px;
+            height: 30px;
+            opacity: 1;
+        }
+        .leftmenu li:nth-child(5)::after {
+            width: 0px;
+            height: 30px;
+            content: "";
+            position: absolute;
+            transition: 3s ease-out;
+            left: 100px;
+        }
+        .leftmenu li:nth-child(5):hover::after {
+            width: 128px;
+            height: 200px;
+            left: 100px;
+            background-color: #408080;
+            content: '"See the lights of cities and been inside their doors, sailed to foreign countries and walked upon their shores."';
+            position: absolute;
+            /*border: 1px solid #408080;*/
+            border-radius: 0 10px 10px 10px;
+            font-family: cursive;
+            overflow: hidden;
+        }
+        .leftmenu li:nth-child(6):hover {
+            width: 120px;
+            height: 30px;
+            opacity: 1;
+        }
+        .leftmenu li:nth-child(6)::after {
+            width: 0px;
+            height: 30px;
+            /*list-style: none;*/
+            content: "";
+            position: absolute;
+            transition:  10s ease-out;
+            left: 100px;
+        }
+        .leftmenu li:nth-child(6):hover::after {
+            width: 150px;
+            height: 300px;
+            left: 100px;
+            background-color: #FF8040;
+            content: '"Wait..."';
+            position: absolute;
+            border-radius: 0 10px 10px 10px;
+            line-height: 300px;
+            top: -200px;
+            font-family: cursive;
+            overflow: hidden;
+        }
+
+        /*cube_container*/
+        .cube_container1 {
+            width: 260px;
+            height: 400px;
+            margin: 100px  0 0px 0;
+            float: left;
+            perspective: 1000px;
+        }
+        .cube_container1 .cube {
+            width: 260px;
+            height: 400px;
+            transform-style: preserve-3d;
+            position: absolute;
+            transition: .3s;
+            backface-visibility: hidden;
+            transform-origin: left center;
+        }
+        .cube_container1 .cube .cube_front {
+            width: 260px;
+            height: 400px;
+            background-image: url("./images/poster01.jpg");
+            float: left;
+            background-size: cover;
+        }
+        .cube_container1 .cube .cube_right {
+            width: 260px;
+            height: 400px;
+            transform: rotateY(-90deg);
+            transform-origin: right;
+            margin-right: 0;
+            background-color: white;
+            background-image: url("./images/poster01r.png");
+            background-size: cover;
+            /*position: absolute;*/
+            /*float: left;*/
+        }
+        /*.cube_container1 .cube .cube_right header {
+          width: 260px;
+          height: 195px;
+          background-image: url("./b2.jpg");
+          background-position: center;
+          background-size: cover;
+
+        }
+        .cube_container1 .cube .cube_right p {
+          height: 155px;
+          padding: 1.2em 1.4em;
+          margin: 2px 0 0;
+          font-weight: 700;
+          color: #666;
+          top: 0;
+
+          line-height: 1.4em;
+          border-top: 10px solid #555;
+
+        }*/
+        .cube_container1 .cube:hover {
+            transform: rotateY(-75deg) translateZ(20px);
+            transform-origin: 130px 0px -110px;
+        }
+        .cube_container1 .cube::after {
+            content: '';
+            width: 260px;
+            height: 260px;
+            position: absolute;
+            bottom: 0;
+            box-shadow: 0 30px 50px rgba(0,0,0,0.5);
+            -webkit-transform-origin: 100% 100%;
+            -moz-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+            -webkit-transform: rotateX(90deg) translateY(0px);
+            -moz-transform: rotateX(90deg) translateY(0px);
+            transform: rotateX(90deg) translateY(0px);
+            -webkit-transition: box-shadow 550ms;
+            -moz-transition: box-shadow 550ms;
+            transition: box-shadow 550ms;
+        }
+
+        .cube_container1 .cube:hover::after {
+            box-shadow: 20px -5px 50px rgba(0,0,0,0.5);
+        }
+        .cube_container2 .cube::after {
+            content: '';
+            width: 260px;
+            height: 260px;
+            position: absolute;
+            bottom: 0;
+            box-shadow: 0 30px 50px rgba(0,0,0,0.5);
+            -webkit-transform-origin: 100% 100%;
+            -moz-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+            -webkit-transform: rotateX(90deg) translateY(0px);
+            -moz-transform: rotateX(90deg) translateY(0px);
+            transform: rotateX(90deg) translateY(0px);
+            -webkit-transition: box-shadow 550ms;
+            -moz-transition: box-shadow 550ms;
+            transition: box-shadow 550ms;
+        }
+
+        .cube_container2 .cube:hover::after {
+            box-shadow: 20px -5px 50px rgba(0,0,0,0.5);
+        }
+        .cube_container3 .cube::after {
+            content: '';
+            width: 260px;
+            height: 260px;
+            position: absolute;
+            bottom: 0;
+            box-shadow: 0 30px 50px rgba(0,0,0,0.5);
+            -webkit-transform-origin: 100% 100%;
+            -moz-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+            -webkit-transform: rotateX(90deg) translateY(0px);
+            -moz-transform: rotateX(90deg) translateY(0px);
+            transform: rotateX(90deg) translateY(0px);
+            -webkit-transition: box-shadow 550ms;
+            -moz-transition: box-shadow 550ms;
+            transition: box-shadow 550ms;
+        }
+
+        .cube_container3 .cube:hover::after {
+            box-shadow: 20px -5px 50px rgba(0,0,0,0.5);
+        }
+        .cube_container2 {
+            width: 260px;
+            height: 400px;
+            margin: 100px 0 auto 100px;
+            float: left;
+            perspective: 1000px;
+        }
+        .cube_container2 .cube {
+            width: 260px;
+            height: 400px;
+            transform-style: preserve-3d;
+            position: absolute;
+            transition: .3s;
+            backface-visibility: hidden;
+            transform-origin: left center;
+        }
+        .cube_container2 .cube .cube_front {
+            width: 260px;
+            height: 400px;
+            background-image: url("./images/poster02.jpg");
+            float: left;
+        }
+        .cube_container2 .cube .cube_right {
+            width: 260px;
+            height: 400px;
+            background-image: url("./images/poster02r.png");
+            transform: rotateY(-90deg) ;
+            transform-origin: right;
+            margin-right: 0;
+            background-size: cover;
+        }
+        .cube_container2 .cube:hover {
+            transform: rotateY(-75deg) translateZ(20px);
+            transform-origin: 130px 0px -110px;
+        }
+        .cube_container3 {
+            width: 260px;
+            height: 400px;
+            margin: 100px 0 auto 100px;
+            float: left;
+            perspective: 1000px;
+        }
+        .cube_container3 .cube {
+            width: 260px;
+            height: 400px;
+            transform-style: preserve-3d;
+            position: absolute;
+            transition: .3s;
+            backface-visibility: hidden;
+            transform-origin: left center;
+        }
+        .cube_container3 .cube .cube_front {
+            width: 260px;
+            height: 400px;
+            background-image: url("./images/poster03.jpg");
+            float: left;
+        }
+        .cube_container3 .cube .cube_right {
+            width: 260px;
+            height: 400px;
+            background-image: url("./images/poster03r.png");
+            transform: rotateY(-90deg) ;
+            transform-origin: right;
+            margin-right: 0;
+            background-size: cover;
+        }
+        .cube_container3 .cube:hover {
+            transform: rotateY(-75deg) translateZ(20px);
+            transform-origin: 130px 0px -110px;
+        }
+        .bigcontainer .top {
+            width: 960px;
+            height: 150px;
+            color: white;
+            font-size: 20px;
+            margin: auto;
+            text-align: center;
+            padding-top: 100px;
+        }
+        .guitarscontainer {
+            height: 200px;
+            width: 200px;
+            perspective: 1000px;
+            float: left;
+            margin-top: 100px;
+            margin-left: 30px;
+        }
+        .guitarscube {
+            width: 200px;
+            height: 200px;
+            transform: rotateX(-15deg)  ;
+            transform-origin: 0 100px -100px;
+            transform-style: preserve-3d;
+            /*position: relative;*/
+            transition: 1s ease;
+        }
+        .guitarscube:hover {
+            transform: rotateX(-75deg)  translateZ(30px);
+            transform-origin: 0 100px -100px;
+        }
+        .guitarscontainer:nth-child(1) .guitarscube .gfrontside {
+            width: 200px;
+            height: 200px;
+            background: url("./images/g1.jpg") ;
+            background-size:cover;
+            background-position: 0px -80px;
+            position: absolute;
+        }
+        .guitarscontainer:nth-child(1) .guitarscube .gtopside {
+            width: 200px;
+            height: 200px;
+            background-image: url("./images/g1.jpg") ;
+            transform: rotateX(90deg) translateY(-200px);
+            transform-origin: top;
+            position: absolute;
+            background-size: 200px 680px;
+            background-position: 0px 2px;
+            /*opacity: .5;*/
+            transition: all 2s ease;
+        }
+        .guitarscontainer:nth-child(2) .guitarscube .gfrontside {
+            width: 200px;
+            height: 200px;
+            background: url("./images/g5.jpg") ;
+            background-size:cover;
+            background-position: 0px -100px;
+            position: absolute;
+        }
+        .guitarscontainer:nth-child(2) .guitarscube .gtopside {
+            width: 200px;
+            height: 200px;
+            background-image: url("./images/g5.jpg") ;
+            transform: rotateX(90deg) translateY(-200px);
+            transform-origin: top;
+            position: absolute;
+            background-size: 200px 580px;
+            background-position: 0px 1px;
+            /*opacity: .5;*/
+            transition: all 2s ease;
+        }
+        .guitarscontainer:nth-child(2) .guitarscube .gfrontside {
+            width: 200px;
+            height: 200px;
+            background: url("./images/g5.jpg") ;
+            background-size:cover;
+            background-position: 0px -100px;
+            position: absolute;
+        }
+        .guitarscontainer:nth-child(2) .guitarscube .gtopside {
+            width: 200px;
+            height: 200px;
+            background-image: url("./images/g5.jpg") ;
+            transform: rotateX(90deg) translateY(-200px);
+            transform-origin: top;
+            position: absolute;
+            background-size: 200px 580px;
+            background-position: 0px 1px;
+            /*opacity: .5;*/
+            transition: all 2s ease;
+        }
+        .guitarscontainer:nth-child(3) .guitarscube .gfrontside {
+            width: 200px;
+            height: 200px;
+            background: url("./images/g6.jpg") ;
+            background-size:cover;
+            background-position: 0px -278px;
+            position: absolute;
+        }
+        .guitarscontainer:nth-child(3) .guitarscube .gtopside {
+            width: 200px;
+            height: 200px;
+            font-size: 15px;
+            background-image: url("./images/g6.jpg") ;
+            transform: rotateX(90deg) translateY(-200px);
+            transform-origin: top;
+            position: absolute;
+            background-size: 200px 329px;
+            background-position: 0px 4px;
+            /*opacity: .5;*/
+            transition: all 2s ease;
+        }
+        .guitarscontainer:nth-child(3) .guitarscube .gfrontside {
+            width: 200px;
+            height: 200px;
+            background: url("./images/g8.jpg") ;
+            background-size:cover;
+            background-position: 0px -396px;
+            position: absolute;
+        }
+        .guitarscontainer:nth-child(3) .guitarscube .gtopside {
+            width: 200px;
+            height: 200px;
+            font-size: 15px;
+            background-image: url("./images/g8.jpg") ;
+            transform: rotateX(90deg) translateY(-200px);
+            transform-origin: top;
+            position: absolute;
+            background-size: 200px 577px;
+            background-position: 0px 4px;
+            /*opacity: .5;*/
+            transition: all 2s ease;
+        }
+        .guitarscontainer:nth-child(4) .guitarscube .gfrontside {
+            width: 200px;
+            height: 200px;
+            background: url("./images/g7.jpg") ;
+            background-size:cover;
+            background-position: 0px -31px;
+            position: absolute;
+        }
+        .guitarscontainer:nth-child(4) .guitarscube .gtopside {
+            width: 200px;
+            height: 200px;
+            font-size: 15px;
+            background-image: url("./images/g7.jpg") ;
+            transform: rotateX(90deg) translateY(-200px);
+            transform-origin: top;
+            position: absolute;
+            background-size: 200px 930px;
+            background-position: 0px 0px;
+            /*opacity: .5;*/
+            transition: all 2s ease;
+        }
+        .guitarscube .gtopside a {
+            width: 180px;
             height: 100px;
-            background-color: #55a532;
+            margin: 50px 16px;
+            text-decoration: none;
+            color: transparent;
+            display: block;
+            transition: 2s ease;
+            z-index: 1;
+        }
+        .guitarscube .gtopside:hover a {
+            color: white;
+        }
+        .guitarscube .gtopside::after {
+            width: 200px;
+            height: 200px;
+            content: "";
+            position: absolute;
+            background-color: transparent;
+            transform: translateY(-200px);
+            transition: 1s ease;
+        }
+        .guitarscube .gtopside:hover::after {
+            background-color: #f1f1f1;
+            opacity: .3;
+            color: red;
+            z-index: -1;
+        }
+        .guitar {
+            width: 947px;
+            height: 500px;
+            /*position: absolute;*/
+            margin: 0px auto;
+            /*perspective: 1000px;*/
+        }
+        .moviecontainer {
+            width: 980px;
+            height: 300px;
+            /*position: absolute;*/
+            margin: 0px auto;
+            /*perspective: 1000px;*/
         }
     </style>
 </head>
-<body>
-<div></div>
+<body style="background-image: url(./images/background.jpg)" >
+<header>
+    <div class="n1">
+        <p>F&nbsp;A&nbsp;K&nbsp;E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P&nbsp;L&nbsp;A&nbsp;S&nbsp;T&nbsp;I&nbsp;C &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&nbsp;R&nbsp;E&nbsp;E&nbsp;S</p>
+        <div class="nn1">
+            <a href="http://192.168.1.253/Something/">A</a>
+        </div>
+        <div class="m1">
+        </div>
+    </div>
+</header>
+<main>
+    <div class="empty">
+        INSTRUMENTS ON ORDER
+    </div>
+    <!-- <div class="b1">
+      <div class="b2">
+        <div class="greenhat">
+          <span class="xing">★</span>
+        </div>
+        <div class="larm"></div>
+        <div class="center">
+          <div class="lear">
+          </div>
+          <div class="rear">
+          </div>
+          <div class="head">
+            <div class="leye"></div>
+            <div class="reye"></div>
+          </div>
+          <div class="fade">
+            <div class="bodycenter"></div>
+            <div class="lleg"></div>
+            <div class="rleg"></div>
+            <div class="androidog">
+              Androidog
+            </div>
+          </div>
+        </div>
+        <div class="rarm"></div>
+      </div>
+      <div class="talk">
+       Where is my hat?
+      </div>
+      <div class="talk2">
+        Don't touch my head!
+      </div>
+    </div> -->
+    <div class="bigcontainer">
+        <div class="top">
+            This is my homepage, "FAKE PLASTIC TREES". It's a song name of a band called Radiohead. You will find something interesting here,
+            movies, music and beatiful guitars...I also put my homeworks and daily lessons in my apache server, you can check them in RIGHTMENU. <br>This page has been perfect, I am looking for a kind of beauty, and express them in my page, like an artist. Now it has many loopholes, but, anyway. Wish you having fun.
+        </div>
+        <div class="moviecontainer">
+            <div class="cube_container1">
+                <div class="cube">
+                    <div class="cube_front"></div>
+                    <div class="cube_right">
+                    </div>
+                </div>
+            </div>
+            <div class="cube_container2">
+                <div class="cube">
+                    <div class="cube_front"></div>
+                    <div class="cube_right"></div>
+                </div>
+            </div>
+            <div class="cube_container3">
+                <div class="cube">
+                    <div class="cube_front"></div>
+                    <div class="cube_right"></div>
+                </div>
+            </div>
+        </div>
+        <div class="guitar">
+            <div class="guitarscontainer">
+                <div class="guitarscube">
+                    <div class="gtopside"><a href="http://theunofficialmartinguitarforum.yuku.com/topic/154310/Show-us-your-MOJO?page=5#.V85Vw2J94YO">
+                        Here's a 1920s Gibson plectrum that I got in the late 70s with a neck in 2 pieces. I removed the headstock overlay and put it on a Martin D35 neck I had laying around...
+                    </a></div>
+                    <div class="gfrontside"></div>
+                </div>
+            </div>
+            <div class="guitarscontainer">
+                <div class="guitarscube">
+                    <div class="gtopside"><a href="http://heather-applegate.pixels.com/featured/appalachian-music-heather-applegate.html">
+                        Appalachian Music <br><br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; By Heather Applegate
+                    </a></div>
+                    <div class="gfrontside"></div>
+                </div>
+            </div>
+            <div class="guitarscontainer">
+                <div class="guitarscube">
+                    <div class="gtopside"><a href="http://stillisstillmoving.com/willienelson/willie-nelson-talks-about-his-guitar/">
+                        Willie Nelson Talks about his guitar <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;See more...
+                    </a></div>
+                    <div class="gfrontside"></div>
+                </div>
+            </div>
+            <div class="guitarscontainer">
+                <div class="guitarscube">
+                    <div class="gtopside"><a href="http://pbs.twimg.com">
+                        Via: pbs.twimg.com  <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;See more...
+                    </a></div>
+                    <div class="gfrontside"></div>
+                </div>
+            </div>
+        </div>
+</main>
+<nav class="nav2">
+    <div class="rightmenu">
+        <ul>
+            <li><a href="http://192.168.1.253/Lessons/">Lessons</a></li>
+            <li><a href="http://192.168.1.253/Homework/">Homework</a></li>
+            <li><a href="http://192.168.1.253/Project/">Project</a></li>
+            <li><a href="http://192.168.1.253/music.html">Music</a></li>
+            <li><a href="http://192.168.1.253/Others/">Others</a></li>
+            <li><a href="http://192.168.1.253/weapp/">weapp</a></li>
+        </ul>
+    </div>
+</nav>
+<nav class="nav1">
+    <div class="leftmenu">
+        <ul>
+            <li><a href="#">Bob Dylan</a></li>
+            <li><a href="">Radiohead</a></li>
+            <li><a href="">Nirvana</a></li>
+            <li><a href="">Neil Young</a></li>
+            <li><a href="">Leo Kottke</a></li>
+            <li><a href="">Yuan Shuai</a></li>
+        </ul>
+    </div>
+</nav>
+<footer>
+    <div class="bottom">
+        <div class="bottomin">
+        </div>
+    </div>
+</footer>
 </body>
 </html>
