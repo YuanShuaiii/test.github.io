@@ -22,7 +22,7 @@ body, html {
     margin: 0 100px;
 }
 .head ul li:nth-child(2) {
-    width: 350px;
+    width: auto;
     height: 50px;
     float: left;
     font-size: 20px;
