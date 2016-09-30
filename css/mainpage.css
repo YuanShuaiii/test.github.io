@@ -22,7 +22,7 @@ body, html {
     margin: 0 100px;
 }
 .head ul li:nth-child(2) {
-    width: 700px;
+    width: 350px;
     height: 50px;
     float: left;
     font-size: 20px;
@@ -51,7 +51,7 @@ body, html {
     position: absolute;
     top: 100%;
     width: 100%;
-    height: 1000px;
+    height: 1900px;
     background-color: white;
     opacity: .1;
 }

@@ -24,7 +24,7 @@ window.onscroll = function() {
         // current = scroll().top;
         clearInterval(window.timer);
         window.timer = setInterval(function () {
-            main[0].style.opacity = Y / 900;
+            main[0].style.opacity = Y / 800;
             var speed = (document.body.clientHeight - Y) / 50 ;
             speed = speed > 0 ? Math.ceil(speed) : Math.floor(speed);
             Y += speed;
