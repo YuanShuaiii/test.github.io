@@ -31,6 +31,7 @@ window.onscroll = function() {
             window.scrollTo(0, Y);
             if (document.body.clientHeight == Y) {
                 clearInterval(window.timer);
+                main[0].style.opacity = 1;
             }
         }, 15);
         window.onscroll = null
