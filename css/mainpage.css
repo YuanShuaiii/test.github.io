@@ -26,18 +26,23 @@ body, html {
     height: 50px;
     float: left;
     font-size: 20px;
-    word-spacing: 2px;
+    word-spacing: 1px;
     text-align: center;
     color: ghostwhite;
     position: absolute;
     -webkit-text-stroke-width: .5px;
     left: 0; top: 0; right: 0; bottom: 0;
     margin: auto;
+    font-family: cursive;
 }
 .head ul li:nth-child(3), .head ul li:nth-child(4) {
     height:50px;
     float: right;
     margin: 0 30px;
+}
+.head ul li a {
+    text-decoration: none;
+    color: white;
 }
 .mainbackground {
     width: 100%;
@@ -55,3 +60,92 @@ body, html {
     background-color: white;
     opacity: .1;
 }
+.maincontainer-articles {
+    width: 80%;
+    height: 500px;
+    /*border: 1px solid black;*/
+    margin: 80px auto;
+}
+.maincontainer-articles .title ul, .maincontainer-categories .title ul {
+    width: auto;
+    height: auto;
+    list-style: none;
+    /*position: absolute;*/
+    /*opacity: .8;*/
+    margin: 10px auto;
+    text-align: center;
+}
+.maincontainer-articles .title ul li:nth-child(1), .maincontainer-categories .title ul li:nth-child(1) {
+    font-size: 100px;
+    font-weight: 900;
+    font-family: "Arial Black";
+    opacity: .3;
+}
+.maincontainer-articles .title ul li:nth-child(2), .maincontainer-categories .title ul li:nth-child(2) {
+    font-size: 40px;
+    margin-top: -94px;
+    font-family: "Bodoni MT Black";
+}
+.maincontainer-articles .title ul li:nth-child(3), .maincontainer-categories .title ul li:nth-child(3) {
+    margin-top: 40px;
+    font-size: 13px;
+    color: #777777;
+    font-weight: 800;
+}
+.maincontainer-articles .title ul li:nth-child(4) {
+    width: 30px;
+    height: 5px;
+    background-color: red;
+    margin: -62px auto;
+}
+.maincontainer-categories .title ul li:nth-child(4) {
+    width: 30px;
+    height: 5px;
+    background-color: red;
+    margin: -51px auto;
+}
+.maincontainer-categories {
+    width: 100%;
+    height: 1000px;
+    margin: 80px auto;
+    overflow: hidden;
+}
+.maincontainer-categories .title {
+    width: auto;
+    height: auto;
+}
+.maincontainer-categories .ca-main ul:nth-child(1) li {
+    list-style: none;
+    width: 20%;
+    height: 20vw;
+    /*border: 1px solid black;*/
+    float: left;
+    margin-top: 120px;
+    background-color: #63a35c;
+}
+.maincontainer-categories .ca-main ul:nth-child(2) li, .maincontainer-categories .ca-main ul:nth-child(3) li {
+    width: 20%;
+    height: 20vw;
+    list-style: none;
+    /*border: 1px solid black;*/
+    float: left;
+    margin-top: 0;
+    background-color: #63a35c;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.maincontainer-categories .ca-main ul:nth-child(1) li:nth-child(2) {
+    background-color: indianred;
+}
+.maincontainer-categories .ca-main ul:nth-child(1) li:nth-child(4) {
+    background-color: yellow;
+}
+.maincontainer-categories .ca-main ul:nth-child(2) li:nth-child(5) {
+    background-color: indigo;
+}
+.maincontainer-categories .ca-main ul:nth-child(2) li:nth-child(2) {
+    background-color: dodgerblue;
+}
+

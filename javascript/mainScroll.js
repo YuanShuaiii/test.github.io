@@ -33,6 +33,9 @@ window.onscroll = function() {
                 clearInterval(window.timer);
                 main[0].style.opacity = 1;
             }
+            if (main[0].style.opacity > .9){
+                main[0].style.opacity = 1
+            }
         }, 15);
         window.onscroll = null
     }
