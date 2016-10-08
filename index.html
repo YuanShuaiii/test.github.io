@@ -10,8 +10,8 @@
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
     <!--必要样式-->
     <link rel="stylesheet" type="text/css" href="css/component.css" />
-
     <link rel="stylesheet" href="./css/mainpage.css">
+    <link rel="stylesheet" href="./css/articles.css">
     <style>
         @font-face {font-family: 'iconfont';
             src: url('./fonts/ux_1475148161_1767313/iconfont.eot'); /* IE9*/
@@ -34,6 +34,13 @@
             url('./fonts/ux_1475201624_2526178/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
             url('./fonts/ux_1475201624_2526178/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
         }
+        @font-face {font-family: 'iconfont';
+            src: url('./fonts/ux_1475926024_912965/iconfont.eot'); /* IE9*/
+            src: url('./fonts/ux_1475926024_912965/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('./fonts/ux_1475926024_912965/iconfont.woff') format('woff'), /* chrome、firefox */
+            url('./fonts/ux_1475926024_912965/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+            url('./fonts/ux_1475926024_912965/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+        }
         .iconfont {
             font-family:"iconfont" !important;
             color: ghostwhite;
@@ -45,10 +52,11 @@
     </style>
 </head>
 <body>
+<script src="javascript/jquery-3.1.1.min.js"></script>
 <script src="javascript/mainScroll.js"></script>
 <div class="head">
     <ul>
-        <li class="iconfont">&#xe602</li>
+        <li class="iconfont"><a href="https://www.baidu.com">&#xe602</a></li>
         <li>F&nbsp;A&nbsp;K&nbsp;E&nbsp;&nbsp;&nbsp; &nbsp;P&nbsp;L&nbsp;A&nbsp;S&nbsp;T&nbsp;I&nbsp;C&nbsp;&nbsp;&nbsp; &nbsp;T&nbsp;R&nbsp;E&nbsp;E&nbsp;S</li>
         <li class="iconfont"><a href="https://www.baidu.com">&#xe657; &nbsp;MyDemo</a></li>
         <li class="iconfont"><a href="https://github.com/CircleYuannnn">&#xe70a; &nbsp;Github</a></li>
@@ -61,60 +69,25 @@
             <ul>
                 <li>A</li>
                 <li>ARTICLES</li>
-                <li>All my articles in CircleYuannnn</li>
+                <li>All my articles in YuanShuaiii</li>
                 <li></li>
             </ul>
         </div>
-        <div class="cube">
-            <ul class="stage clearfix">
-                <li class="scene">
-                    <div class="movie" onClick="return true">
-                        <div class="poster"></div>
-                        <div class="info">
-                            <header>
-                                <h1>Git源码管理工具</h1>
-                                <span class="year">2016</span>
-                                <span class="rating">教程</span>
-                                <span class="duration">via: 菜鸟在线官网</span>
-                            </header>
-                            <p>
-                                GIT是一个开源的分布式版本控制系统，可以有效、高速的处理从很小到非常大的项目版本管理。
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="scene">
-                    <div class="movie" onClick="return true">
-                        <div class="poster"></div>
-                        <div class="info">
-                            <header>
-                                <h1>CSS选择器</h1>
-                                <span class="year">2016</span>
-                                <span class="rating">教程</span>
-                                <span class="duration">via: 菜鸟在线官网</span>
-                            </header>
-                            <p>
-                                要想将CSS样式应用于特定的HTML元素，首先需要找到该目标元素。在CSS中，执行这一任务的样式规则部分被称为选择器，CSS基础(还有很多)选择器有四种。
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="scene">
-                    <div class="movie" onClick="return true">
-                        <div class="poster"></div>
-                        <div class="info">
-                            <header>
-                                <h1>The Gold Rush</h1>
-                                <span class="year">1925</span>
-                                <span class="rating">NR</span>
-                                <span class="duration">95 minutes</span>
-                            </header>
-                            <p>
-                                The Tramp travels to the Yukon to take part in the Klondike Gold Rush. He gets mixed up with some burly characters and falls in love with the beautiful Georgia. He tries to win her heart with his singular charm.
-                            </p>
-                        </div>
-                    </div>
-                </li>
+        <div class="ar-main">
+            <div class="square"><span>ALL THE  <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ARTICLES</span></div>
+            <ul>
+                <li class="iconfont"><a href="https://www.baidu.com">&#xe647;Git源码管理工具</a></li>
+                <li class="iconfont"><a href="">&#xe647;CSS选择器是对方当时</a></li>
+                <li class="iconfont"><a href="">&#xe647;CSS选择</a></li>
+                <li class="iconfont"><a href="">&#xe647;CSS选择器第三方</a></li>
+            </ul>
+            <ul>
+                <!--<li><img src="./css/img/Selection_005.bmp" alt=""></li>-->
+                <!--<li><img src="./css/img/HTML5.jpg" alt=""></li>-->
+                <!--<li><img src="./css/img/049155d77c0cde9db4561e963c1df02baf99b3bb_main_hero_image.jpg" alt=""></li>-->
+                <!--<li><img src="./css/img/git1.jpg" alt=""></li>-->
+                <!--<li><img src="./css/img/Selection_005.bmp" alt=""></li>-->
+                <!--<li><img src="./css/img/049155d77c0cde9db4561e963c1df02baf99b3bb_main_hero_image.jpg" alt=""></li>-->
             </ul>
         </div>
     </div>
@@ -150,6 +123,61 @@
                 <li></li>
             </ul>
         </div>
+        <div class="wrapper">
+            <ul class="stage clearfix">
+                <li class="scene">
+                    <div class="movie" onClick="return true">
+                        <div class="poster"></div>
+                        <div class="info">
+                            <header>
+                                <h1>It's a Wonderful Life</h1>
+                                <span class="year">1946</span>
+                                <span class="rating">PG</span>
+                                <span class="duration">130 minutes</span>
+                            </header>
+                            <p>
+                                In Bedford Falls, New York on Christmas Eve, George Bailey is deeply troubled. Prayers for his well-being from friends and family reach Heaven. Clarence Odbody, Angel Second Class, is assigned to visit Earth to save George, thereby earning his wings. Franklin and Joseph, the head angels, review George's life with Clarence.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="scene">
+                    <div class="movie" onClick="return true">
+                        <div class="poster"></div>
+                        <div class="info">
+                            <header>
+                                <h1>Vengeance Valley</h1>
+                                <span class="year">1951</span>
+                                <span class="rating">NR</span>
+                                <span class="duration">83 minutes</span>
+                            </header>
+                            <p>
+                                A cattle baron takes in an orphaned boy and raises him, causing his own son to resent the boy. As they get older the resentment festers into hatred, and eventually the real son frames his stepbrother for fathering an illegitimate child that is actually his, seeing it as an opportunity to get his half-brother out of the way so he can have his father's empire all to himself.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="scene">
+                    <div class="movie" onClick="return true">
+                        <div class="poster"></div>
+                        <div class="info">
+                            <header>
+                                <h1>The Gold Rush</h1>
+                                <span class="year">1925</span>
+                                <span class="rating">NR</span>
+                                <span class="duration">95 minutes</span>
+                            </header>
+                            <p>
+                                The Tramp travels to the Yukon to take part in the Klondike Gold Rush. He gets mixed up with some burly characters and falls in love with the beautiful Georgia. He tries to win her heart with his singular charm.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+</body>
+</html>
     </div>
 </div>
 </body>
