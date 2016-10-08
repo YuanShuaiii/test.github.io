@@ -18,7 +18,7 @@ function scroll(){
     }
 }
 window.onscroll = function() {
-    console.log(main[0].offsetTop);
+    // console.log(main[0].offsetTop);
     var Y = scroll().top;
     if(Y > document.body.clientHeight / 4){
         // current = scroll().top;
