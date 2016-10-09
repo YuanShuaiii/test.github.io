@@ -57,7 +57,7 @@ a {
 }
 .ar-main ul:nth-child(3)::before {
     content: "";
-    width: 100%;
+    width: 50%;
     height: 358px;
     position: absolute;
     background-color: #888888;

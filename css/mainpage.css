@@ -69,7 +69,8 @@ body, html {
     width: 50%;
     height: 681px;
     float: right;
-    background-color: #a71d5d;
+    background-image: url("./img/4f6c1a71e655255b4193dfa2c318e101 (1).jpg");
+    background-size: auto;
 }
 .maincontainer-articles {
     width: 100%;
