@@ -12,7 +12,7 @@ body, html {
     width:100%;
     height:50px;
     background-color: black;
-    opacity: .8;
+    opacity: .7;
     line-height: 50px;
     position: fixed;
     z-index: 1039;
@@ -46,11 +46,35 @@ body, html {
     color: ghostwhite;
 }
 .mainbackground {
+    margin: 0;
+    padding: 0;
+    /*background:linear-gradient(360deg, #e56420, #37bbde);*/
+    overflow: hidden;
+    background-color: blanchedalmond;
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-blend-mode: hard-light;
+    animation: hue-rotate 10s linear infinite;
+    /*width: 100%;*/
+    /*height: 100%;*/
     position: fixed;
-    background-size: 100% 100%;
-    background-image: url("./img/download.jpg");
+    /*background-size: 100% 100%;*/
+    /*background-image: url("./img/download.jpg");*/
+}
+@keyframes hue-rotate {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+        -moz-filter: hue-rotate(0deg);
+        -ms-filter: hue-rotate(0deg);
+        filter: hue-rotate(0deg);
+    }
+    to {
+        -webkit-filter: hue-rotate(360deg);
+        -moz-filter: hue-rotate(360deg);
+        -ms-filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg);
+    }
 }
 .main {
     /*border-top: 5px solid black;*/
@@ -162,6 +186,7 @@ body, html {
     margin-top: 120px;
     background-color: #63a35c;
     overflow: hidden;
+    /*position: relative;*/
 }
 /*.maincontainer-categories .ca-main ul:nth-child(1) li::before {*/
     /*position: absolute;*/
@@ -197,14 +222,16 @@ body, html {
     background-color: #63a35c;
     overflow: hidden;
 }
-img {
+.ca-main img {
     /*transform: scale(2,2);*/
-    width: 100%;
+    /*width: 100%;*/
     height: 100%;
-    transition: .3s ease-in-out;
+    transition: .2s ease-in-out;
     z-index: 8;
     opacity: 1;
     /*position: absolute;*/
+    /*left: 50%;*/
+    /*margin-left: -155px;*/
 }
 /*.ca-main div:hover .ca-main ul li img{*/
     /*!*background-color: #693a17;*!*/
@@ -238,7 +265,7 @@ img {
     opacity: 0;
     z-index: 100;
     margin: 4.17911111%;
-    transition: .3s ease-in-out;
+    transition: .2s ease-in-out;
     text-align: center;
     /*line-height: 122px;*/
     font-size: 20px;
@@ -259,14 +286,14 @@ img {
     /*opacity: .7;*/
     z-index: 100;
     margin: 4.181111%;
-    transition: .3s ease-in-out;
+    transition: .2s ease-in-out;
     text-align: center;
     /*line-height: 122px;*/
     font-size: 10px;
     background-color: rgba(28,28,28,.7)
     /*display: block;*/
 }
-p{
+.ca-main p{
     width:100%;
     margin-top: 49%;
     height:auto;

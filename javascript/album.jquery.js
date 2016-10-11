@@ -17,9 +17,25 @@
 //         }
 //     }
 // }
+var li = document.getElementsByTagName("li");
+var img = document.getElementsByTagName("img");
 
+for (var i = 0 ; i < img.length ; i++){
+    var margin = (img[i].offsetWidth - img[i].offsetHeight) / 2 ;
+    img[i].style.marginLeft = "-" + margin + "px";
+    console.log(margin);
+}
 
 $(document).ready(function () {
+    // var img = $('.ca-main img');
+    // var li = $('.ca-main li');
+    // for(var i = 0 ; i < img.length ; i++){
+    // console.log(img[i].offsetWidth);
+    // var margin = -($('.ca-main img').offsetWidth - $('.ca-main img').offsetHeight) / 2 ;
+    // console.log(margin);
+    // console.log(img[0].offsetWidth - li[0]);
+    // $('.ca-main img').css("margin-left", "-" + (($(this).offsetWidth - $(this).offsetHeight) / 2) + "px");
+    // }
     var div = $('.ca-main div');
     div.mouseenter(function () {
         this.className = "current";

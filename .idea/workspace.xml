@@ -5,20 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a76e28a-6498-4cba-9698-f8e989e08ca7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/img/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/img/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/img/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/img/download.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/img/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascript/mainpage.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/tree.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/img/1.jpg" afterPath="$PROJECT_DIR$/css/img/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/img/2.jpg" afterPath="$PROJECT_DIR$/css/img/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/img/3.jpg" afterPath="$PROJECT_DIR$/css/img/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/img/4.jpg" afterPath="$PROJECT_DIR$/css/img/4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/img/5.jpg" afterPath="$PROJECT_DIR$/css/img/5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/img/6.jpg" afterPath="$PROJECT_DIR$/css/img/6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/img/7.jpg" afterPath="$PROJECT_DIR$/css/img/7.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/articles.css" afterPath="$PROJECT_DIR$/css/articles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/component.css" afterPath="$PROJECT_DIR$/css/component.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mainpage.css" afterPath="$PROJECT_DIR$/css/mainpage.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/album.jquery.js" afterPath="$PROJECT_DIR$/javascript/album.jquery.js" />
     </list>
     <ignored path="circleyuannnn.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,11 +43,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1966">
-              <caret line="201" column="6" selection-start-line="201" selection-start-column="6" selection-end-line="201" selection-end-column="6" />
+            <state relative-caret-position="1073">
+              <caret line="203" column="31" selection-start-line="203" selection-start-column="31" selection-end-line="203" selection-end-column="31" />
               <folding>
-                <element signature="e#3471#3477#0" expanded="true" />
-                <element signature="e#4272#4278#0" expanded="true" />
+                <element signature="e#3472#3478#0" expanded="true" />
+                <element signature="e#4331#4337#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,21 +56,19 @@
       <file leaf-file-name="mainScroll.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/mainScroll.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="568">
               <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="album.jquery.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="album.jquery.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/album.jquery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="-8">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,18 +76,18 @@
       <file leaf-file-name="mainpage.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/mainpage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="255" column="15" selection-start-line="255" selection-start-column="15" selection-end-line="255" selection-end-column="15" />
+            <state relative-caret-position="161">
+              <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/articles.css">
+      <file leaf-file-name="tree.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascript/tree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="743">
-              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+            <state relative-caret-position="640">
+              <caret line="69" column="78" selection-start-line="68" selection-start-column="0" selection-end-line="69" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -105,7 +102,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/demo.css" />
-        <option value="$PROJECT_DIR$/css/component.css" />
         <option value="$PROJECT_DIR$/javascript/mainScroll.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/lrtk.css" />
@@ -113,10 +109,12 @@
         <option value="$PROJECT_DIR$/css/articles.css" />
         <option value="$PROJECT_DIR$/javascript/mainpage.js" />
         <option value="$PROJECT_DIR$/javascript/jquery.albums.js" />
-        <option value="$PROJECT_DIR$/css/mainpage.css" />
         <option value="$PROJECT_DIR$/javascript/album.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/javascript/album.jquery.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/component.css" />
+        <option value="$PROJECT_DIR$/css/mainpage.css" />
+        <option value="$PROJECT_DIR$/javascript/tree.js" />
       </list>
     </option>
   </component>
@@ -127,10 +125,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="118" />
-    <option name="y" value="132" />
-    <option name="width" value="1374" />
-    <option name="height" value="808" />
+    <option name="x" value="51" />
+    <option name="y" value="24" />
+    <option name="width" value="1869" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -218,13 +216,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/css/img" />
       <recent name="$PROJECT_DIR$/javascript" />
-      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/fonts" />
       <recent name="F:\Project\wheathead\circleyuannnn.github.io-master\css\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css/img" />
       <recent name="$PROJECT_DIR$/javascript" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/fonts" />
@@ -314,18 +313,18 @@
       <workItem from="1475997204082" duration="1853000" />
       <workItem from="1475999962620" duration="3078000" />
       <workItem from="1476008431579" duration="26000" />
-      <workItem from="1476013173436" duration="31689000" />
+      <workItem from="1476013173436" duration="41211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112468000" />
+    <option name="totallyTimeSpent" value="121990000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="118" y="132" width="1374" height="808" extended-state="0" />
+    <frame x="51" y="24" width="1869" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23686159" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1332611" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957748" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -360,17 +359,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#3471#3477#0" expanded="true" />
-            <element signature="e#4272#4278#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/mainScroll.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -468,21 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -493,7 +466,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/jquery.min.js" />
     <entry file="file://$PROJECT_DIR$/javascript/jquery.hoverdir.js" />
-    <entry file="file://$PROJECT_DIR$/css/img/1.jpg" />
     <entry file="file://$PROJECT_DIR$/css/img/2.jpg" />
     <entry file="file://$PROJECT_DIR$/css/img/3.jpg" />
     <entry file="file://$PROJECT_DIR$/css/img/4.jpg" />
@@ -567,40 +539,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/img/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/mainScroll.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
+        <state relative-caret-position="568">
           <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mainpage.css">
+    <entry file="file://$PROJECT_DIR$/javascript/album.jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="255" column="15" selection-start-line="255" selection-start-column="15" selection-end-line="255" selection-end-column="15" />
+        <state relative-caret-position="-8">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1966">
-          <caret line="201" column="6" selection-start-line="201" selection-start-column="6" selection-end-line="201" selection-end-column="6" />
+        <state relative-caret-position="1073">
+          <caret line="203" column="31" selection-start-line="203" selection-start-column="31" selection-end-line="203" selection-end-column="31" />
           <folding>
-            <element signature="e#3471#3477#0" expanded="true" />
-            <element signature="e#4272#4278#0" expanded="true" />
+            <element signature="e#3472#3478#0" expanded="true" />
+            <element signature="e#4331#4337#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/album.jquery.js">
+    <entry file="file://$PROJECT_DIR$/css/component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="96">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2081">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mainpage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/tree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="69" column="78" selection-start-line="68" selection-start-column="0" selection-end-line="69" selection-end-column="77" />
+          <folding />
         </state>
       </provider>
     </entry>
