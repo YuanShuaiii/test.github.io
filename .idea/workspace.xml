@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a76e28a-6498-4cba-9698-f8e989e08ca7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ux_1477288878_0306594/iconfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ux_1477288878_0306594/iconfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ux_1477288878_0306594/iconfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ux_1477288878_0306594/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ux_1477288878_0306594/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ux_1477288878_0306594/iconfont.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ux_1477288878_0306594/iconfont.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mainpage.css" afterPath="$PROJECT_DIR$/css/mainpage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/album.jquery.js" afterPath="$PROJECT_DIR$/javascript/album.jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/mainScroll.js" afterPath="$PROJECT_DIR$/javascript/mainScroll.js" />
     </list>
     <ignored path="circleyuannnn.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="185" column="30" selection-start-line="185" selection-start-column="30" selection-end-line="185" selection-end-column="30" />
+            <state relative-caret-position="2913">
+              <caret line="194" column="47" selection-start-line="194" selection-start-column="47" selection-end-line="194" selection-end-column="47" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#4147#4153#0" expanded="true" />
@@ -84,8 +74,8 @@
       <file leaf-file-name="album.jquery.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/album.jquery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+            <state relative-caret-position="336">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -93,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainpage.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mainpage.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/mainpage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-600">
-              <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+            <state relative-caret-position="312">
+              <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -126,8 +116,8 @@
         <option value="$PROJECT_DIR$/dfdsfsd.html" />
         <option value="$PROJECT_DIR$/javascript/mainScroll.js" />
         <option value="$PROJECT_DIR$/javascript/album.jquery.js" />
-        <option value="$PROJECT_DIR$/css/mainpage.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/mainpage.css" />
       </list>
     </option>
   </component>
@@ -138,8 +128,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="155" />
-    <option name="y" value="150" />
+    <option name="x" value="171" />
+    <option name="y" value="229" />
     <option name="width" value="1374" />
     <option name="height" value="808" />
   </component>
@@ -361,15 +351,15 @@
       <workItem from="1476008431579" duration="26000" />
       <workItem from="1476013173436" duration="44455000" />
       <workItem from="1476170173022" duration="20434000" />
-      <workItem from="1477286767672" duration="5857000" />
+      <workItem from="1477286767672" duration="6108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151525000" />
+    <option name="totallyTimeSpent" value="151776000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="155" y="150" width="1374" height="808" extended-state="0" />
+    <frame x="171" y="229" width="1374" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18282753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -651,26 +641,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/album.jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+        <state relative-caret-position="336">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mainpage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="185" column="30" selection-start-line="185" selection-start-column="30" selection-end-line="185" selection-end-column="30" />
+        <state relative-caret-position="2913">
+          <caret line="194" column="47" selection-start-line="194" selection-start-column="47" selection-end-line="194" selection-end-column="47" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#4147#4153#0" expanded="true" />
@@ -704,6 +686,14 @@
             <element signature="e#4768#4774#0" expanded="true" />
             <element signature="e#5629#5635#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mainpage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
