@@ -17,6 +17,29 @@ body, html {
     position: fixed;
     z-index: 1039;
 }
+.head span{
+    list-style: none;
+    width:100%;
+    height:50px;
+    background-color: #555555;
+    opacity: .7;
+    line-height: 50px;
+    position: fixed;
+    z-index: 1039;
+    color: ghostwhite;
+    /*margin-left: 100px;*/
+}
+.head span i {
+    font-size: 25px;
+}
+.head .headmenu {
+    width: 100%;
+    /*height: 0;*/
+    display: none;
+    margin-top: -10px;
+    background-color: #555555;
+    /*opacity: .7;*/
+}
 .head ul li:nth-child(1) {
     height:50px;
     float: left;

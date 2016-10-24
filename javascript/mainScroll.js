@@ -1,23 +1,24 @@
-var main = document.getElementsByClassName("main");
-function scroll(){
-    if (window.pageYOffset){
-        return {
-            top: window.pageYOffset,
-            left: window.pageXOffset
-        };
-    } else if (document.body.scrollTop){
-        return {
-            top: document.body.scrollTop,
-            left: document.body.scrollLeft
-        };
-    } else {
-        return {
-            top: document.documentElement.scrollTop,
-            left: document.documentElement.scrollLeft
-        };
-    }
-}
+
 window.onscroll = function() {
+    var main = document.getElementsByClassName("main");
+    function scroll(){
+        if (window.pageYOffset){
+            return {
+                top: window.pageYOffset,
+                left: window.pageXOffset
+            };
+        } else if (document.body.scrollTop){
+            return {
+                top: document.body.scrollTop,
+                left: document.body.scrollLeft
+            };
+        } else {
+            return {
+                top: document.documentElement.scrollTop,
+                left: document.documentElement.scrollLeft
+            };
+        }
+    }
     // console.log(main[0].offsetTop);
     var Y = scroll().top;
     if(Y > document.body.clientHeight / 4){
@@ -491,6 +492,14 @@ window.onscroll = function() {
         }, 15);
         window.onscroll = null;
     }
+
+
+
 };
+
+
+// 响应式head
+
+
 // console.log();
 // head.js

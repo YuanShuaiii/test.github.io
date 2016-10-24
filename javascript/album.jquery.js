@@ -30,10 +30,10 @@ $(document).ready(function () {
     var img = $('.ca-main img');
     var li = $('.ca-main li');
     for(var i = 0 ; i < img.length ; i++){
-    console.log(img[i].offsetWidth);
+    // console.log(img[i].offsetWidth);
     var margin = -($('.ca-main img').offsetWidth - $('.ca-main img').offsetHeight) / 2 ;
-    console.log(margin);
-    console.log(img[0].offsetWidth - li[0]);
+    // console.log(margin);
+    // console.log(img[0].offsetWidth - li[0]);
     $('.ca-main img').css("marginLeft", "-" + (($(this).offsetWidth - $(this).offsetHeight) / 2) + "px");
     }
     var div = $('.ca-main div');
@@ -44,6 +44,45 @@ $(document).ready(function () {
     div.mouseleave(function () {
         this.className = "album";
         $(this).nextAll().css("transform", "scale(1, 1)")
+    });
+
+
+
+
+
+    if(window.innerWidth < 768){
+        $('.head ul').css("display", "none");
+        $('.head span').css("display", "block");
+        $('.head i').on("click",function () {
+            $('.headmenu').toggle(1000);
+            // if($('.headmenu').css("display") == "none"){
+            //     // console.log("dsfds");
+            //     $('.headmenu').css("display","block")
+            // }
+            // console.log($('.headmenu').css("display"));
+            // return;
+            //
+            // if($('.headmenu').css("display") == "block"){
+            //     $('.headmenu').css("display","none")
+            // }
+        })
+    }
+    if(window.innerWidth >= 768){
+        $('.head span').css('display' , "none");
+        $('.head ul').css('display', "block")
+    }
+    $(window).resize(function () {
+        var headWidth = window.innerWidth;
+        console.log(headWidth);
+        if(headWidth < 768){
+            $('.head ul').css("display", "none");
+            $('.head span').css("display", "block");
+            // $('.head ').append("<span>+</span>")
+        }
+        if(headWidth >= 768){
+            $('.head span').css('display' , "none");
+            $('.head ul').css('display', "block")
+        }
     });
 });
 
