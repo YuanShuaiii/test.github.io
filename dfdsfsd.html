@@ -1,104 +1,217 @@
-<!doctype html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="javascript/jquery-3.1.1.min.js"></script>
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title>点到达圈</title>
+    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css" />
+    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/jquery.range.css" />
+    <script src="http://cache.amap.com/lbs/static/jquery-1.9.1.js"></script>
+    <script src="http://cache.amap.com/lbs/static/es5.min.js"></script>
+    <script src="http://webapi.amap.com/maps?v=1.3&key=22d3816e107f199992666d6412fa0691&plugin=AMap.ArrivalRange,AMap.Scale,AMap.Geocoder,AMap.Transfer,AMap.Autocomplete"></script>
+    <script src="http://cache.amap.com/lbs/static/jquery.range.js"></script>
+
+
+
+
+
+
+
+    <!--<link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css" />-->
+    <!--<link rel="stylesheet" href="http://cache.amap.com/lbs/static/jquery.range.css" />-->
+    <!--<link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>-->
+    <!--<script src="http://cache.amap.com/lbs/static/jquery-1.9.1.js"></script>-->
+    <!--<script src="http://cache.amap.com/lbs/static/es5.min.js"></script>-->
+    <!--<script src="http://webapi.amap.com/maps?v=1.3&key=22d3816e107f199992666d6412fa0691&plugin=AMap.ArrivalRange,AMap.Scale,AMap.Geocoder,AMap.Transfer,AMap.Autocomplete"></script>-->
+    <!--<script src="http://cache.amap.com/lbs/static/jquery.range.js"></script>-->
+    <!--&lt;!&ndash;<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=您申请的key值&plugin=AMap.Autocomplete,AMap.PlaceSearch"></script>&ndash;&gt;-->
+    <!--<script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>-->
     <style>
-        li {
-            width: 300px;
-            height: 300px;
-            overflow: hidden;
-            float: left;
+
+        div#tip {
+            top: auto;
+            bottom: 25px;
         }
-        img {
-            /*width: 100%;*/
-            height: 100%;
-            /*background-size: 100%;*/
+        input{
+            width: 120px;
         }
-        p {
-            display: none;
-        }
+
     </style>
+
+
 </head>
+
 <body>
-<div class="ca-main">
-    <ul>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/2.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/3.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-    </ul>
-    <ul>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-    </ul>
-    <ul>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-    </ul>
-    <ul>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-    </ul>
-    <ul>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-        <li><div class="album"><p>sdfsd</p></div><img src="./css/img/1.jpg" alt=""></li>
-    </ul>
-    </div>
+<div id="container"></div>
+
+<div id="tip" class="button-group">
+    点:
+    X:<input type="text" name="x" id='lngX' value="116.39742"/>
+    Y:<input type="text" name="y" id='latY' value="39.909325"/>
+    <br>
+    时间：
+    <input type="hidden" id="t" class="single-slider" value="30" />
+    <br>
+    交通类型:
+    <select name="v" id="v">
+        <option value ="SUBWAY,BUS">地铁+公交</option>
+        <option value ="SUBWAY">地铁</option>
+        <option value ="BUS">公交</option>
+    </select>
+    <input type="button" class="button" value="生活圈" onClick="javascript:addPolygon()"/>
+    <input type="button" class="button" value="清空" onClick="javascript:delPolygon()"/>
+</div>
+<div id="myPageTop">
+    <table>
+        <tr>
+            <td>
+                <label>请输入关键字：</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input id="tipinput"/>
+            </td>
+        </tr>
+    </table>
+</div>
 <script>
-//    var li = document.getElementsByTagName("li");
-//    var img = document.getElementsByTagName("img");
-//     for (var i = 0 ; i < img.length ; i++){
-//         var margin = (img[i].offsetWidth - img[i].offsetHeight) / 2 ;
-//         img[i].style.marginLeft = "-" + margin + "px";
-//     }
+    var map = new AMap.Map("container", {
+        resizeEnable: true,
+        zoomEnable: true,
+        center: [116.397428, 39.90923],
+        zoom: 10
+    });
 
 
-    $(document).ready(function () {
-        var img = $('.ca-main img');
-//        var li = $('.ca-main li');
-        for(var i = 0 ; i < img.length ; i++){
-//            console.log(img[i].offsetWidth);
-            var margin = ($('.ca-main img')[i].offsetWidth - $('.ca-main img')[i].offsetHeight) / 2 ;
-//            console.log(margin);
-//            console.log(img[0].offsetWidth - li[0]);
-            console.log(margin);
-        }
-        img[i].style.marginLeft =  "-" + margin + "px";
+    var auto = new AMap.Autocomplete({
+        //通过id指定输入元素
+        input: "tipinput"
+    });
 
+    //添加事件监听，在选择补完的地址后调用workLocationSelected
+    AMap.event.addListener(auto, "select", workLocationSelected);
 
-        var div = $('.ca-main div');
-        div.mouseenter(function () {
-            this.className = "current";
-            $(this).nextAll().css("transform", "scale(1.5, 1.5)")
+    function workLocationSelected(e) {
+        //更新工作地点，加载公交到达圈
+        workAddress = e.poi.name;
+        loadWorkLocation();
+    }
+    function loadWorkLocation() {
+        //首先清空地图上已有的到达圈
+        delWorkLocation();
+        var geocoder = new AMap.Geocoder({
+            city: "北京",
+            radius: 1000
         });
-        div.mouseleave(function () {
-            this.className = "album";
-            $(this).nextAll().css("transform", "scale(1, 1)")
+
+        geocoder.getLocation(workAddress, function(status, result) {
+            if (status === "complete" && result.info === 'OK') {
+                var geocode = result.geocodes[0];
+                x = geocode.location.getLng();
+                y = geocode.location.getLat();
+                //加载工作地点标记
+                loadWorkMarker(x, y);
+                //加载60分钟内工作地点到达圈
+                loadWorkRange(x, y, 60, "#3f67a5", vehicle);
+                //地图移动到工作地点的位置
+                map.setZoomAndCenter(12, [x, y]);
+            }
+        })
+    }
+
+    map.on( 'click', getLnglat);
+    function getLnglat(e) {
+        var lngX=$("#lngX");
+        var latY=$("#latY");
+        lngX.val(e.lnglat.getLng());
+        latY.val(e.lnglat.getLat());
+        addCenterMarker(e.lnglat.getLng(),e.lnglat.getLat());
+        addPolygon();
+    }
+
+    function addCenterMarker(x,y){
+        if(centerMarker){
+            centerMarker.setMap(null);
+        }
+        centerMarker= new AMap.Marker({
+            map: map,
+            position: [x,y]
+        });
+    }
+    var arrivalRange = new AMap.ArrivalRange(), x, y, t, v,centerMarker,polygonArray=[];
+    //添加多边形覆盖物
+    function addPolygon() {
+        x=$("input[name='x']").val();
+        y=$("input[name='y']").val();
+        t=$("#t").val();
+        v=$("#v").val();
+        addCenterMarker(x,y);
+        arrivalRange.search([x,y],t, function(status,result){
+            delPolygon();
+            if(result.bounds){
+                for(var i=0;i<result.bounds.length;i++){
+                    var polygon = new AMap.Polygon({
+                        map:map,
+                        fillColor:"#3366FF",
+                        fillOpacity:"0.4",
+                        strokeColor:"#00FF00",
+                        strokeOpacity:"0.5",
+                        strokeWeight:1
+                    });
+                    polygon.setPath(result.bounds[i]);
+                    polygonArray.push(polygon);
+                }
+                map.setFitView();
+            }
+        },{
+            policy:v
+        });
+    }
+
+    function delPolygon(){
+        map.remove(polygonArray);
+        polygonArray=[];
+    }
+
+    var isChanged=false;
+    $(function(){
+        $('.single-slider').jRange({
+            onstatechange: function() {
+                isChanged=true;
+            },
+            from: 1,
+            to: 60,
+            step: 1,
+            scale: [1,15,30,45,60],
+            format: '%s',
+            width: 400,
+            showLabels: true,
+            showScale: true
         });
     });
+    addPolygon();
+    window.setInterval(function(){//防止在移动滑动条时频繁触发请
+        if(isChanged){
+            addPolygon();
+            isChanged=false;
+        }
+    },1000);
+
+//    var autoOptions = {
+//        input: "tipinput"
+//    };
+//    var auto = new AMap.Autocomplete(autoOptions);
+//    var placeSearch = new AMap.PlaceSearch({
+//        map: map
+//    });  //构造地点查询类
+//    AMap.event.addListener(auto, "select", select);//注册监听，当选中某条记录时会触发
+//    function select(e) {
+//        placeSearch.setCity(e.poi.adcode);
+//        placeSearch.search(e.poi.name);  //关键字查询查询
+//    }
 </script>
 </body>
+
 </html>
+

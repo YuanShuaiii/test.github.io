@@ -210,8 +210,8 @@ body, html {
 /*}*/
 .maincontainer-categories .ca-main ul:nth-child(1) li {
     list-style: none;
-    width: 16.66666666666666%;
-    height: 16.6666666666666vw;
+    width: 25%;
+    height: 25vw;
     /*border: 1px solid black;*/
     float: left;
     margin-top: 120px;
@@ -231,8 +231,8 @@ body, html {
 /*}*/
 .maincontainer-categories .ca-main ul:nth-child(1) li span {
     display: block;
-    width: 16.666666666666666%;
-    height: 16.66666666666666vw;
+    width: 25%;
+    height: 25vw;
     background-color: #55a532;
     /*content: "dfdsfsdf";*/
     z-index: 7;
@@ -244,8 +244,8 @@ body, html {
 /*}*/
 
 .maincontainer-categories .ca-main ul:nth-child(2) li, .maincontainer-categories .ca-main ul:nth-child(3) li, .maincontainer-categories .ca-main ul:nth-child(4) li, .maincontainer-categories .ca-main ul:nth-child(5) li, .maincontainer-categories .ca-main ul:nth-child(6) li {
-    width: 16.666666666666666%;
-    height: 16.66666666666666vw;
+    width: 25%;
+    height: 25vw;
     list-style: none;
     /*border: 1px solid black;*/
     float: left;
@@ -290,12 +290,12 @@ body, html {
 .ca-main  .album{
     transform: scale(2,2);
     position: absolute;
-    width: 8.333333333333333333%;
-    height: 8.3333333333333333vw;
+    width: 12.5%;
+    height: 12.5vw;
     /*background-color: #a71d5d;*/
     opacity: 0;
     z-index: 100;
-    margin: 4.17911111%;
+    margin: 6.31%;
     transition: .2s ease-in-out;
     text-align: center;
     /*line-height: 122px;*/
@@ -311,12 +311,12 @@ body, html {
 .current {
     transform: scale(2,2);
     position: absolute;
-    width: 8.393333333333333333%;
-    height: 8.3933333333333333vw;
+    width: 12.5%;
+    height: 12.5vw;
     /*background-color: #a71d5d;*/
     /*opacity: .7;*/
     z-index: 100;
-    margin: 4.181111%;
+    margin: 6.31%;
     transition: .2s ease-in-out;
     text-align: center;
     /*line-height: 122px;*/

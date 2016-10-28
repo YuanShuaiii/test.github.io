@@ -73,7 +73,7 @@ $(document).ready(function () {
     }
     $(window).resize(function () {
         var headWidth = window.innerWidth;
-        console.log(headWidth);
+        // console.log(headWidth);
         if(headWidth < 768){
             $('.head ul').css("display", "none");
             $('.head span').css("display", "block");

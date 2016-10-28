@@ -1,0 +1,15 @@
+.container1 {
+    /*width: 70%;*/
+    /*height: 100px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+.classborder {
+    border: 1px solid #99979c;
+    /*color: #99979c;*/
+    border-radius: 8px;
+}
+/*.classborder i {*/
+    /*position: relative;*/
+    /*margin-left: auto;*/
+/*}*/
