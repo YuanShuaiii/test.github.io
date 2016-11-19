@@ -5,17 +5,19 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="javascript/jquery-3.1.1.min.js"></script>
     <title>Document</title>
     <link href='http://fonts.googleapis.com/css?family=Days+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
-    <!--<link rel="stylesheet" type="text/css" href="css/normalize.css" />-->
-    <!--<link rel="stylesheet" type="text/css" href="css/demo.css" />-->
-    <!--必要样式-->
-    <!--<link rel="stylesheet" type="text/css" href="css/component.css" />-->
     <link rel="stylesheet" href="./css/mainpage.css">
     <link rel="stylesheet" href="./css/articles.css">
-
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="javascript/jquery-3.1.1.min.js"></script>
+    <script src="javascript/mainScroll.js"></script>
+    <script src="javascript/album.jquery.js"></script>
+    <!--<script src="javascript/makisu.js"></script>-->
+    <!--<script src="javascript/demo2.js"></script>-->
     <style>
         @font-face {font-family: 'iconfont';
             src: url('./fonts/ux_1475148161_1767313/iconfont.eot'); /* IE9*/
@@ -78,12 +80,14 @@
         <li class="iconfont"><a href="https://www.baidu.com">&#xe602</a></li>
         <li>F&nbsp;A&nbsp;K&nbsp;E&nbsp;&nbsp;&nbsp; &nbsp;P&nbsp;L&nbsp;A&nbsp;S&nbsp;T&nbsp;I&nbsp;C&nbsp;&nbsp;&nbsp; &nbsp;T&nbsp;R&nbsp;E&nbsp;E&nbsp;S</li>
         <li class="iconfont"><a href="https://www.baidu.com">&#xe657; &nbsp;MyDemo</a></li>
-        <li class="iconfont"><a href="https://github.com/CircleYuannnn">&#xe70a; &nbsp;Github</a></li>
+        <li class="iconfont"><a href="./articles/01.html">&#xe70a; &nbsp;Github</a></li>
     </ul>
 </div>
 
 
-<div class="mainbackground"><canvas id="mycanvas" width="100%" height="100%"></canvas></div>
+<div class="mainbackground">
+    <canvas id="mycanvas" width="100%" height="100%"></canvas>
+</div>
 <div class="main">
     <div class="maincontainer-articles">
         <div class="title">
@@ -149,8 +153,8 @@
                 <!--<li><div class="album"><p>sdfsd</p></div><img src="./css/img/5.jpg" alt=""></li>-->
             </ul>
             <!--<ul>-->
-                <!--<li><img src="./css/img/6.jpg" alt=""></li>-->
-                <!--<li><img src="./css/img/7.jpg" alt=""></li>-->
+            <!--<li><img src="./css/img/6.jpg" alt=""></li>-->
+            <!--<li><img src="./css/img/7.jpg" alt=""></li>-->
             <!--</ul>-->
         </div>
         <section class="demo">
@@ -168,10 +172,10 @@
                 <dd><a href="#">Tobiwo</a></dd>
             </dl>
 
-            <dl class="list maki">
+            <dl class="list maki" style="z-index: 5555555">
                 <dt>HTML5</dt>
-                <dd><a href="#">Ana-kyu</a></dd>
-                <dd><a href="#">Chutoro</a></dd>
+                <dd><a href="./articles/01.html">Ana-kyu</a></dd>
+                <dd><a href="https://www.baidu.com">Chutoro</a></dd>
                 <dd><a href="#">Kaiware</a></dd>
                 <dd><a href="#">Kampyo</a></dd>
                 <dd><a href="#">Kappa</a></dd>
@@ -201,64 +205,59 @@
         </section>
         <!--<div class="ba-main"></div>-->
         <!--<div class="wrapper">-->
-            <!--<ul class="stage clearfix">-->
-                <!--<li class="scene">-->
-                    <!--<div class="movie" onClick="return true">-->
-                        <!--<div class="poster"></div>-->
-                        <!--<div class="info">-->
-                            <!--<header>-->
-                                <!--<h1>It's a Wonderful Life</h1>-->
-                                <!--<span class="year">1946</span>-->
-                                <!--<span class="rating">PG</span>-->
-                                <!--<span class="duration">130 minutes</span>-->
-                            <!--</header>-->
-                            <!--<p>-->
-                                <!--In Bedford Falls, New York on Christmas Eve, George Bailey is deeply troubled. Prayers for his well-being from friends and family reach Heaven. Clarence Odbody, Angel Second Class, is assigned to visit Earth to save George, thereby earning his wings. Franklin and Joseph, the head angels, review George's life with Clarence.-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</li>-->
-                <!--<li class="scene">-->
-                    <!--<div class="movie" onClick="return true">-->
-                        <!--<div class="poster"></div>-->
-                        <!--<div class="info">-->
-                            <!--<header>-->
-                                <!--<h1>Vengeance Valley</h1>-->
-                                <!--<span class="year">1951</span>-->
-                                <!--<span class="rating">NR</span>-->
-                                <!--<span class="duration">83 minutes</span>-->
-                            <!--</header>-->
-                            <!--<p>-->
-                                <!--A cattle baron takes in an orphaned boy and raises him, causing his own son to resent the boy. As they get older the resentment festers into hatred, and eventually the real son frames his stepbrother for fathering an illegitimate child that is actually his, seeing it as an opportunity to get his half-brother out of the way so he can have his father's empire all to himself.-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</li>-->
-                <!--<li class="scene">-->
-                    <!--<div class="movie" onClick="return true">-->
-                        <!--<div class="poster"></div>-->
-                        <!--<div class="info">-->
-                            <!--<header>-->
-                                <!--<h1>The Gold Rush</h1>-->
-                                <!--<span class="year">1925</span>-->
-                                <!--<span class="rating">NR</span>-->
-                                <!--<span class="duration">95 minutes</span>-->
-                            <!--</header>-->
-                            <!--<p>-->
-                                <!--The Tramp travels to the Yukon to take part in the Klondike Gold Rush. He gets mixed up with some burly characters and falls in love with the beautiful Georgia. He tries to win her heart with his singular charm.-->
-                            <!--</p>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</li>-->
-            <!--</ul>-->
+        <!--<ul class="stage clearfix">-->
+        <!--<li class="scene">-->
+        <!--<div class="movie" onClick="return true">-->
+        <!--<div class="poster"></div>-->
+        <!--<div class="info">-->
+        <!--<header>-->
+        <!--<h1>It's a Wonderful Life</h1>-->
+        <!--<span class="year">1946</span>-->
+        <!--<span class="rating">PG</span>-->
+        <!--<span class="duration">130 minutes</span>-->
+        <!--</header>-->
+        <!--<p>-->
+        <!--In Bedford Falls, New York on Christmas Eve, George Bailey is deeply troubled. Prayers for his well-being from friends and family reach Heaven. Clarence Odbody, Angel Second Class, is assigned to visit Earth to save George, thereby earning his wings. Franklin and Joseph, the head angels, review George's life with Clarence.-->
+        <!--</p>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</li>-->
+        <!--<li class="scene">-->
+        <!--<div class="movie" onClick="return true">-->
+        <!--<div class="poster"></div>-->
+        <!--<div class="info">-->
+        <!--<header>-->
+        <!--<h1>Vengeance Valley</h1>-->
+        <!--<span class="year">1951</span>-->
+        <!--<span class="rating">NR</span>-->
+        <!--<span class="duration">83 minutes</span>-->
+        <!--</header>-->
+        <!--<p>-->
+        <!--A cattle baron takes in an orphaned boy and raises him, causing his own son to resent the boy. As they get older the resentment festers into hatred, and eventually the real son frames his stepbrother for fathering an illegitimate child that is actually his, seeing it as an opportunity to get his half-brother out of the way so he can have his father's empire all to himself.-->
+        <!--</p>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</li>-->
+        <!--<li class="scene">-->
+        <!--<div class="movie" onClick="return true">-->
+        <!--<div class="poster"></div>-->
+        <!--<div class="info">-->
+        <!--<header>-->
+        <!--<h1>The Gold Rush</h1>-->
+        <!--<span class="year">1925</span>-->
+        <!--<span class="rating">NR</span>-->
+        <!--<span class="duration">95 minutes</span>-->
+        <!--</header>-->
+        <!--<p>-->
+        <!--The Tramp travels to the Yukon to take part in the Klondike Gold Rush. He gets mixed up with some burly characters and falls in love with the beautiful Georgia. He tries to win her heart with his singular charm.-->
+        <!--</p>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</li>-->
+        <!--</ul>-->
         <!--</div>-->
     </div>
 </div>
-<!--<script src="https://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>-->
-<!--<script src="javascript/makisu.js"></script>-->
-<!--<script src="javascript/demo2.js"></script>-->
-<script src="javascript/mainScroll.js"></script>
-<script src="javascript/album.jquery.js"></script>
-<script src="javascript/tree.js"></script>
+<!--<script src="javascript/tree.js"></script>-->
 </body>
 </html>

@@ -49,23 +49,13 @@ $(document).ready(function () {
 
 
 
-
+    $('.head i').on("click",function () {
+        $('.headmenu').toggle(1000);
+    });
     if(window.innerWidth < 768){
         $('.head ul').css("display", "none");
         $('.head span').css("display", "block");
-        $('.head i').on("click",function () {
-            $('.headmenu').toggle(1000);
-            // if($('.headmenu').css("display") == "none"){
-            //     // console.log("dsfds");
-            //     $('.headmenu').css("display","block")
-            // }
-            // console.log($('.headmenu').css("display"));
-            // return;
-            //
-            // if($('.headmenu').css("display") == "block"){
-            //     $('.headmenu').css("display","none")
-            // }
-        })
+
     }
     if(window.innerWidth >= 768){
         $('.head span').css('display' , "none");

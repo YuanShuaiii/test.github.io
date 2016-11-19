@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en" manifest="index.appcache">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="javascript/jquery-3.1.1.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+<!--<div id="n1">-->
+    <!--<div id="n2"></div>-->
+    <!--<div id="n3"></div>-->
+<!--</div>-->
+<!--<canvas id="canvas"></canvas>-->
+<!--<img src="./1.png" alt="" id="img">-->
+<!--<canvas id="can2"></canvas>-->
+<!--<div id="div" style="width: 100px;height: 100px;border: 1px solid hotpink">-->
+    <!--<button id="btn" type="button">button</button>-->
+<!--</div>-->
+<!--<button id="btn">button</button>-->
+<!--<audio src="./1.mp3" controls="controls">FGHGFHFGHGFH</audio>-->
+<!--<svg width="500px" height="500px" viewBox="0 0 120 120" version="1.1">-->
+    <!--<circle cx="60" cy="50" r="50"></circle>-->
+<!--</svg>-->
+<!--<svg width="120" height="120"  viewBox="0 0 120 120"-->
+     <!--xmlns="http://www.w3.org/2000/svg" version="1.1"-->
+     <!--xmlns:xlink="http://www.w3.org/1999/xlink" >-->
+    <!--<polygon points="60,30 90,90 30,90">-->
+        <!--<animateTransform attributeName="transform"-->
+                          <!--attributeType="XML"-->
+                          <!--type="rotate"-->
+                          <!--from="0 60 70"-->
+                          <!--to="360 60 70"-->
+                          <!--dur="10s"-->
+                          <!--repeatCount="indefinite"/>-->
+    <!--</polygon>-->
+<!--</svg>-->
+<!--<form action="">-->
+    <!--<input type="text" id="input">-->
+    <!--<button id="btn">button</button>-->
+<!--</form>-->
+<div class='box' style='width:100px;height:100px;background-color:hotpink'></div>
+<div class='box' style='width:100px;height:100px;background-color:hotpink'></div>
+<div id='box' style='width:100px;height:100px;background-color:#995555'></div>
+<form action="test.html">
+    <input type="file" id="file-id" multiple><hr>
+    <textarea name="text" id="text" cols="30" rows="10"></textarea>
+    <button id='btn'>button</button>
+</form>
+</body>
+<script>
+    var text = document.getElementById('text');
+    var btn = document.getElementById('btn');
+    btn.onclick = function () {
+        document.write(text.value);
+    };
+//    btn.addEventListener('click', function(){
+//        for (var i = 0; i < input.files.length; i++){
+//            var array = [
+//                input.files.length,
+//                input.files[i].size
+//            ];
+//            console.log(array);
+//        }
+//    });
+//    document.addEventListener('keydown', function(e){
+//        console.log('e.keyCode = ' + e.keyCode);
+//        console.log('e.code = ' + e.code);
+//        console.log('e.key = ' + e.key);
+//        if(e.keyCode == 13){
+//            if(!document.fullscreenElement){
+//                document.fullscreenElement();
+//            }else if(document.fullscreenElement){
+//                document.cancelFullscreenElement();
+//            }
+//        }
+//    });
+//    var input = document.getElementById('input');
+//    var btn = document.getElementById('btn');
+//    if(localStorage.text){
+//        input.value = localStorage.text
+//    }
+//    btn.onclick = function () {
+//        alert(input.value);
+//        localStorage.text = input.value;
+//    };
+
+//    var a = document.getElementById('btn');
+//    a.onclick = function (e) {
+//        if(a.paused){
+//            a.play();
+//        }else{
+//            a.pause();
+//        }
+//    };
+//    a.addEventListener('click',function () {
+//        if(a.paused){
+//            a.play();
+//        }else{
+//            a.pause();
+//        }
+//    });
+//    document.getElementById('btn').onclick = alert1;
+//    document.getElementById('btn').onclick = alert2;
+//    document.getElementById('btn').onclick = alert3;
+//    document.getElementById('btn').addEventListener('click',alert1);
+//    document.getElementById('btn').addEventListener('click',alert2);
+//    document.getElementById('btn').addEventListener('click',alert3);
+//
+//    function alert1(event) {
+//        alert('1');
+////        event.preventDefault();
+//    }
+//    function alert2(event) {
+//        alert('2');
+////        event.preventDefault();
+//    }
+//    function alert3(event) {
+//        alert('3');
+////        event.preventDefault();
+//    }
+
+//    btn.onclick = function () {
+//      alert('1')
+//    };
+//    btn.onclick = function () {
+//        alert('2')
+//    };
+//    $('button').click(function (event) {
+//       alert('button');
+////        event.stopPropagation();
+//    });
+//    $('button').click(function () {
+//       alert('button2');
+//    });
+//    $('div').click(function () {
+//       alert('div')
+//    });
+//    function demo() {
+//        alert('sddsa')
+//    }
+//    var can = document.getElementById("canvas");
+//    can.width = 1000;
+//    can.height = 1000;
+//    can.style.border = "1px solid red";
+//
+//    var ctx = can.getContext('2d');
+//    ctx.beginPath();
+//    ctx.arc(200,200,100,0,2*Math.PI);
+//    ctx.stroke();
+//
+//    ctx.fillStyle = 'yellow';
+//    ctx.beginPath();
+//    ctx.moveTo(200,200);
+//    ctx.arc(200,200,100,0*Math.PI/180,30*Math.PI/180);
+//    ctx.fill();
+
+//
+//    img.onload = function move(e) {
+//
+//        var i = 0;
+//        move();
+//        console.log(i);
+//        function move() {
+//            t = setTimeout(function () {
+//                i++;
+//                i %= 4;
+//                move();
+//                can.width = 500;
+//                can.height = 500;
+//                ctx.drawImage(img,i*40,0,40,65,240,240,40,65);
+//            },100);
+//
+//        }
+//    };
+
+////    var w = 10 ,h = 10;
+//    for(var i = 0; i < can.width/20; i++){
+//        ctx.beginPath();
+//        ctx.strokeStyle = 'dark';
+//        ctx.moveTo(i*20,0);
+//        ctx.lineTo(i*20,600);
+//        ctx.stroke();
+//    }
+//    for(var j = 0; j < can.width/20; j++){
+//        ctx.beginPath();
+//        ctx.strokeStyle = 'dark';
+//        ctx.moveTo(0,j*20);
+//        ctx.lineTo(600,j*20);
+//        ctx.stroke();
+//    }
+//    ctx.beginPath();
+//    ctx.strokeStyle = 'blue';
+//    ctx.lineWidth = 10;
+////    ctx.style.border = '10px solid blue';
+//    ctx.moveTo(100,160);
+//    ctx.lineTo(100,460);
+//    ctx.lineTo(500,460);
+//    ctx.stroke();
+//
+//    ctx.beginPath();
+//    ctx.strokeStyle = 'red';
+//    ctx.lineWidth = 10;
+//    ctx.moveTo(100,460);
+//    ctx.lineTo(200,200);
+//    ctx.lineTo(300,400);
+//    ctx.lineTo(350,100);
+//    ctx.stroke();
+//
+//    ctx.beginPath();
+//    ctx.strokeStyle = 'blue';
+//    ctx.lineWidth = 6;
+//    ctx.moveTo(90,170);
+//    ctx.lineTo(100,160);
+//    ctx.lineTo(110,170);
+//    ctx.stroke();
+//
+//
+//    ctx.beginPath();
+//    ctx.strokeStyle = 'blue';
+//    ctx.lineWidth = 6;
+//    ctx.moveTo(490,450);
+//    ctx.lineTo(500,460);
+//    ctx.lineTo(490,470);
+//    ctx.stroke();
+
+//    can.width = 1000;
+//    can.height = 1000;
+////    can.style.border = '1px solid gray';
+//
+//    var ctx = can.getContext('2d');
+//    console.log(ctx);
+////    var w = 50, h = 50;
+//    move();
+//    function move() {
+//        var ran = Math.floor(Math.random() * 800000);
+//        var r = Math.floor(Math.random() * 256);
+//        var g = Math.floor(Math.random() * 256);
+//        var b = Math.floor(Math.random() * 256);
+//        var a = Math.floor(Math.random() * 256);
+//        for (var i = 1; i < 500; i++) {
+//            console.log(r, g, b);
+//            ctx.beginPath();
+//            ctx.moveTo(500, 0);
+//            ctx.lineTo(i*2, ran);
+//            for (var j = 0; j < 1; j++) {
+//                ctx.strokeStyle = "rgba(" + r + "," + g + "," + b + "," + a + ")";
+//            }
+//            ctx.stroke();
+//        }
+//        var t = setTimeout(function () {
+////            can.width = 1500;
+////            can.height = 1000;
+//            move()
+//        },1)
+//    }
+</script>
+</html>

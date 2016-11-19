@@ -1,5 +1,6 @@
 
 window.onscroll = function() {
+    console.log('sdsdsd');
     var main = document.getElementsByClassName("main");
     function scroll(){
         if (window.pageYOffset){
