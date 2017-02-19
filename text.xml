@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ROWSET>
+  <ROW>
+    <storename>S015</storename>
+    <ordernumber>S015-03492560</ordernumber>
+    <status>INPROGRESS</status>
+    <date>2017-02-18</date>
+    <name>吴玉萍</name>
+    <totalprice>0E-8</totalprice>
+    <CheckoutFrom>WAREHOUSE</CheckoutFrom>
+    <DeliveryTo>To Store</DeliveryTo>
+    <p_shippingdate>(null)</p_shippingdate>
+    <p_warehousedispatchdate>(null)</p_warehousedispatchdate>
+  </ROW>
+  <ROW>
+  <storename>S012</storename>
+  <ordernumber>S012-03492550</ordernumber>
+  <status>INPROGRESS</status>
+  <date>2017-02-18</date>
+  <name>马昊翔</name>
+  <totalprice>390.00000000</totalprice>
+  <CheckoutFrom>WAREHOUSE</CheckoutFrom>
+  <DeliveryTo>To Store</DeliveryTo>
+  <p_shippingdate>(null)</p_shippingdate>
+  <p_warehousedispatchdate>(null)</p_warehousedispatchdate>
+  </ROW>
+</ROWSET>
